@@ -23,17 +23,17 @@ There are 30 marks available and are awarded grades as follows:
 ###1 - Why do we represent data using binary when using computers *(1 mark)*
 
 ```
-answer here
+because the computer only understands if something is on (1) or off (0)
 ```
 ###2 - How would we represent the number 147 in binary? *(1 mark)*
 ```
-answer here
+10010011
 ```
 ###3 - Can you convert the hexadecimal number **b5** to denary, there is a mark for you working. *(2 marks)*
 ```
-answer here
+181
 ```
-###4 - Here is a function written is **pseudocode**.
+###4 - Here is a function written in **pseudocode**.
 ```
 FUNCTION validUser (users , user)
     FOR x <-1 to LEN(users)
@@ -47,12 +47,12 @@ ENDFUNCTION
 
 (a) What type of data is **users**? **(1 mark)**
 ```
-answer here
+perameter
 ```
 
 (b) What type of data is returned by this function? **(1 mark)**
 ```
-answer here
+statement
 ```
 
 ##Errors
@@ -69,28 +69,28 @@ line7:		OUTPT mean
 
 (a) On which line is there a **syntax** error? **(1 mark)**
 ```
-answer here
+line 3
 ```
 
 (b) What is meant by a **syntax** error? **(1 mark)**
 ```
-answer here
+python cannot understand the program and therefor it cannot run it
 ```
 
 (c) Identify a logical error in the program and suggest how this might be fixed. **(2 marks)**
 ```
-answer here
+...
 ```
 
 (d) Describe and give an example of the 3rd kind of programming error. **(2 marks)**
 ```
-answer here
+a runtime error is when there is an error in the code which is only found when that piece of code is trying to be ran.
 ```
 
 ##Algortithms
 ###7 - Write an **algorithm** that if given a list of numbers could find the largest. Try to use [pseudocode](http://filestore2.aqa.org.uk/subjects/AQA-GCSE-COMPSCI-W-TRB-PSEU.PDF).
 ```
-answer here
+...
 ```
 
 ##Networking
@@ -98,27 +98,27 @@ answer here
 
 **Bus Topology (6 marks)**
 ```
-Describe:
+Describe: each computer or network device is connected using a single cable
 
-Advantages:
+Advantages: easy to set up, cheap, good for LAN
 
-Disadvantages:
+Disadvantages:difficult to detect fault on a specific device, not good for heavy traffic networks, low security
 ```
 
 **Ring Topology (6 marks)**
 ```
-Describe:
+Describe: devices are connected together in a circle
 
-Advantages:
+Advantages:quick data transfer, simple
 
-Disadvantages:
+Disadvantages: data must go through every device between the sender and the reciever, difficult to troubleshoot, all devices must be turned on for it to work.
 ```
 
 **Star Topology (6 marks)**
 ```
-Describe:
+Describe:each device is connected to a central device
 
-Advantages:
+Advantages:easy to set up and expand, any non-central failure has no impact on other users
 
-Disadvantages:
+Disadvantages:expensive, if the hub has a fault the network fails.
 ```
